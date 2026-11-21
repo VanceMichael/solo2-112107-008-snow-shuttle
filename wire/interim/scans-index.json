@@ -1,0 +1,17 @@
+[
+  {
+    "operator": "A",
+    "issue": "A-OP",
+    "volumes": [
+      "a-ledger"
+    ]
+  },
+  {
+    "operator": "B",
+    "issue": "B-OP",
+    "volumes": [
+      "b-ledger",
+      "b-late"
+    ]
+  }
+]

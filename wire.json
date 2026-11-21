@@ -1,0 +1,172 @@
+{
+  "releases": {
+    "opening": {
+      "bookings": {
+        "name": "opening/bookings.json",
+        "type": "application/json"
+      },
+      "station-index": {
+        "name": "opening/station-index.json",
+        "type": "application/json"
+      },
+      "roads-one": {
+        "name": "opening/roads-one.json",
+        "type": "application/json"
+      },
+      "scans-index": {
+        "name": "opening/scans-index.json",
+        "type": "application/json"
+      },
+      "a-ledger": {
+        "name": "opening/a-ledger.json",
+        "type": "application/json"
+      },
+      "b-ledger": {
+        "name": "opening/b-ledger.json",
+        "type": "application/json"
+      },
+      "handover": {
+        "name": "opening/handover.json",
+        "type": "application/json"
+      },
+      "replacement": {
+        "name": "opening/replacement.json",
+        "type": "application/json"
+      },
+      "confirmations": {
+        "name": "opening/confirmations.json",
+        "type": "application/json"
+      },
+      "connections": {
+        "name": "opening/connections.json",
+        "type": "application/json"
+      }
+    },
+    "interim": {
+      "bookings": {
+        "name": "interim/bookings.json",
+        "type": "application/json"
+      },
+      "station-index": {
+        "name": "interim/station-index.json",
+        "type": "application/json"
+      },
+      "roads-one": {
+        "name": "interim/roads-one.json",
+        "type": "application/json"
+      },
+      "scans-index": {
+        "name": "interim/scans-index.json",
+        "type": "application/json"
+      },
+      "a-ledger": {
+        "name": "interim/a-ledger.json",
+        "type": "application/json"
+      },
+      "b-ledger": {
+        "name": "interim/b-ledger.json",
+        "type": "application/json"
+      },
+      "handover": {
+        "name": "interim/handover.json",
+        "type": "application/json"
+      },
+      "replacement": {
+        "name": "interim/replacement.json",
+        "type": "application/json"
+      },
+      "confirmations": {
+        "name": "interim/confirmations.json",
+        "type": "application/json"
+      },
+      "connections": {
+        "name": "interim/connections.json",
+        "type": "application/json"
+      },
+      "roads-late": {
+        "name": "interim/roads-late.json",
+        "type": "application/json"
+      }
+    },
+    "confirmed": {
+      "bookings": {
+        "name": "confirmed/bookings.json",
+        "type": "application/json"
+      },
+      "station-index": {
+        "name": "confirmed/station-index.json",
+        "type": "application/json"
+      },
+      "roads-one": {
+        "name": "confirmed/roads-one.json",
+        "type": "application/json"
+      },
+      "scans-index": {
+        "name": "confirmed/scans-index.json",
+        "type": "application/json"
+      },
+      "a-ledger": {
+        "name": "confirmed/a-ledger.json",
+        "type": "application/json"
+      },
+      "b-ledger": {
+        "name": "confirmed/b-ledger.json",
+        "type": "application/json"
+      },
+      "handover": {
+        "name": "confirmed/handover.json",
+        "type": "application/json"
+      },
+      "replacement": {
+        "name": "confirmed/replacement.json",
+        "type": "application/json"
+      },
+      "confirmations": {
+        "name": "confirmed/confirmations.json",
+        "type": "application/json"
+      },
+      "connections": {
+        "name": "confirmed/connections.json",
+        "type": "application/json"
+      },
+      "roads-late": {
+        "name": "confirmed/roads-late.json",
+        "type": "application/json"
+      },
+      "b-late": {
+        "name": "confirmed/b-late.json",
+        "type": "application/json"
+      }
+    }
+  },
+  "actions": {
+    "book": {
+      "receipt": "ALT-R2",
+      "result": "confirmed"
+    },
+    "release": {
+      "receipt": "ALT-R1",
+      "result": "pending"
+    },
+    "inspect": {
+      "receipt": "ALT-R1",
+      "result": "released"
+    }
+  },
+  "known": {
+    "opening": {},
+    "interim": {},
+    "confirmed": {
+      "ALT-R1": {
+        "receipt": "ALT-R1",
+        "result": "confirmed"
+      }
+    }
+  },
+  "statusField": "result",
+  "inspectStates": {
+    "book": "confirmed",
+    "release": "released"
+  },
+  "lateAction": null
+}

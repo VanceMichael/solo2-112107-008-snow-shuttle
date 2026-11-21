@@ -1,0 +1,9 @@
+[
+  {
+    "second_trip": "H-3",
+    "station": "X-B",
+    "departure": "08:00",
+    "grace_minutes": 0,
+    "allow_replace": true
+  }
+]

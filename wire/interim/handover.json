@@ -1,0 +1,22 @@
+[
+  {
+    "issue": "I1",
+    "old_group": "TG1",
+    "new_booking": "BF1",
+    "travellers": [
+      "T1"
+    ],
+    "from_station": "X-A",
+    "to_station": "X-ALT"
+  },
+  {
+    "issue": "I1",
+    "old_group": "TG1",
+    "new_booking": "BF2",
+    "travellers": [
+      "T2"
+    ],
+    "from_station": "X-A",
+    "to_station": "X-ALT"
+  }
+]

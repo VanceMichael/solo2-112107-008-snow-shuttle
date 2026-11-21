@@ -1,0 +1,20 @@
+[
+  {
+    "operator": "A",
+    "station": "松桥",
+    "id": "X-A",
+    "route": "F",
+    "from_time": "06:00",
+    "until": "08:10",
+    "state": "open"
+  },
+  {
+    "operator": "B",
+    "station": "松桥",
+    "id": "X-B",
+    "route": "H",
+    "from_time": "06:00",
+    "until": "09:00",
+    "state": "open"
+  }
+]

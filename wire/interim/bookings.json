@@ -1,0 +1,26 @@
+[
+  {
+    "group": "TG1",
+    "booking": "B1",
+    "traveller": "T1",
+    "issue": "I1",
+    "first": "A-11",
+    "second": "B-8"
+  },
+  {
+    "group": "TG1",
+    "booking": "B1",
+    "traveller": "T2",
+    "issue": "I1",
+    "first": "A-12",
+    "second": "B-9"
+  },
+  {
+    "group": "TG2",
+    "booking": "B2",
+    "traveller": "T3",
+    "issue": "I2",
+    "first": "A-11",
+    "second": "B-8"
+  }
+]
