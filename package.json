@@ -8,6 +8,8 @@
   },
   "scripts": {
     "source": "node source.mjs",
-    "test": "node --test source.test.mjs"
+    "test": "node --test source.test.mjs test/*.test.mjs",
+    "desk": "node src/cli.mjs",
+    "demo": "node src/cli.mjs demo"
   }
 }
